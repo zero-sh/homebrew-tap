@@ -1,11 +1,11 @@
 class Zero < Formula
-  VERSION = "0.2.0".freeze
+  VERSION = "0.3.0".freeze
 
   desc "Radically simple personal bootstrapping tool for macOS"
   homepage "https://github.com/zero-sh/zero.sh"
   url "https://github.com/zero-sh/zero.sh/releases/download/#{VERSION}/zero-#{VERSION}.tar.gz"
   version VERSION
-  sha256 "526261550c914a9f964922cf24ea6389f395bb70b0b5c3c55b4b3ad0f651f0b7"
+  sha256 "4e708dab2a6ae71e011fbc6e8f4d12febc2d6502cfae0a46662f570003418bdc"
   head "https://github.com/zero-sh/zero.sh.git"
 
   def install
