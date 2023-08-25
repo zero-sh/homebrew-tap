@@ -1,11 +1,11 @@
 class ApplyUserDefaults < Formula
-  VERSION = "0.1.2".freeze
+  VERSION = "0.2.0".freeze
 
   desc "Small tool to set macOS user defaults from a YAML file"
   homepage "https://github.com/zero-sh/apply-user-defaults"
-  url "https://github.com/zero-sh/apply-user-defaults/releases/download/#{VERSION}/apply-user-defaults-#{VERSION}-x86_64-apple-darwin.tar.gz"
+  url "https://github.com/zero-sh/apply-user-defaults/releases/download/#{VERSION}/apply-user-defaults-#{VERSION}.tar.gz"
   version VERSION
-  sha256 "8329c20f7f4c8cc87372e4077411232224bcb01f87883ddd90786e7b52adc14a"
+  sha256 "ce763cab70f6fa72ed767f48cd5b46ca9da5c39fcfe0f1d8e5dc3f5bdc18ba83"
   head "https://github.com/zero-sh/apply-user-defaults.git"
 
   def install
